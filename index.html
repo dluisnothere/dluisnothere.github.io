@@ -15,6 +15,7 @@
             }
             .avatar {
                 vertical-align: middle;
+                float: left;
                 margin-top:50px;
                 margin-left:150px;
                 border: 12px solid #FFFFFF;
@@ -36,22 +37,40 @@
                 margin-left: 100px;
                 float: left;
             }
-            .links {
+            .button {
                 font-family: 'Montserrat', sans-serif;
-                font-size: 20px;
-                text-align: center;
+                font-size: 14px;
+                text-align: justify;
+                padding: 20px 20px;
+                background-color: #FFFFFF;
+                border-radius: 25px;
+                margin-top: 50px;
+                margin-left: 100px;
+                float: left;
+            }
+            .button {
+                background-color: #FFFFFF;
+                color: #40785E;
+                padding: 14px 28px;
+                font-size: 16px;
+            }
+
+            .button:hover {
+                background-color:#40785E;
+                color: #FFFFFF;
             }
         </style>
     </head>
     
     <body style ="background-color:#EDFFF3">
-        <div style="float:left;">
-           <img src="https://66.media.tumblr.com/938b056ae10ede917e2ebaf5aa5b2a74/ac097aa3f4a0b078-55/s400x600/b366714d255cd59d6bb3a8cb4ff5688b926c75ad.png" 
+        <img src="https://66.media.tumblr.com/938b056ae10ede917e2ebaf5aa5b2a74/ac097aa3f4a0b078-55/s400x600/b366714d255cd59d6bb3a8cb4ff5688b926c75ad.png" 
             alt="Avatar" class="avatar">
-        </div>
         <div id="desc" class="description">
             <h1 style="color:#40785E">Hello World!</h1>
             <p>My name is <b>Di Lu</b>. I'm hosted with GitHub Pages.</p>
+        </div>
+        <div id="resume" class="button">
+            <p>Resume</p>
         </div>
     </body>
 </html>
