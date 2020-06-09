@@ -35,8 +35,8 @@
             .menu {
                 background-color: #EDFFF3;
                 margin-left:33%;
-                margin-bottom: 30px; 
                 margin-top:70px;
+                margin-bottom: 30px;
                 height: 50px;
                 width: 50%;
                 border-radius: 20px; 
@@ -73,7 +73,7 @@
                 vertical-align: middle; 
             }
 
-            .button:hover {
+            .button:hover, .button:focus {
                 background-color:#FFFFFF;
                 color: #40785E;
             }
@@ -84,29 +84,29 @@
             .dropdown-tabs{
                 font-size: 14px;
                 color: #FFFFFF;
-                background-color: #40785E;
+                background-color: #87C5A8;
                 min-width: 100px;
                 z-index: 1;
-                line-height: 30px;
-                border-radius:10px;
-                margin-top: 37px;
+                border-radius: 10px;
+                inline-height:30px;
+ 				margin-top: 35px;
                 margin-left: 0px;
                 display: none;
-                position: absolute;
+                position:absolute;
             }
 
             .dropdown-tabs a {
                 text-align: center;
-                color: black;
+                color: #FFFFFF;
                 text-decoration: none;
                 display:block;
-                padding: 5px 10px;
+                padding: 5px 5px;
             }
 
             .dropdown-tabs a:hover {
                 background-color:#FFFFFF;
-                border-radius: 10px;
-                color: #000000;
+                border-radius:10px;
+                color: #40785E;
             }
 
             .dropdown:hover .dropdown-tabs {
@@ -115,9 +115,10 @@
 
             .dropdown:hover .button {
                 background-color: #FFFFFF;
-                border-radius: 25px;
                 color: #40785E
             }
+            
+            .show {display: block}
 
         </style>
     </head>
@@ -138,25 +139,18 @@
                 </a>
                 <div class="dropdown">
                     <a href="art.html">
-                        <div class="button">
-                            Art
-                        </div>
+                    	<div class="button">Art</div>
                     </a>
                     <div class="dropdown-tabs">
-                        <a href="index.html">
-                            Traditional
-                        </a>  
-                        <br>
-                        <a href="index.html">
-                            3D Modeling
-                        </a>
+                        <a href="index.html">Traditional</a>  
+                        <a href="index.html"> 3D Modeling</a>
                     </div>
                 </div>
             </div>
             <div class="description">
                 <h1 style="color:#40785E">Hello World!</h1>
                 <p>My name is <b style="color:#40785E">Di Lu</b>. </p>
-                <p> I am a rising junior 
+                <p> I am a student 
                     at the University of Pennsylvania studying Digital Media Design (computer graphics).
                 </p>
             </div>
