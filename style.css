@@ -1,6 +1,8 @@
-<style>
-    body {
+    @font-face{
         font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        src: "https://fonts.googleapis.com/css?family=Montserrat";
     }
     .avatar {
         float: left;
@@ -150,4 +152,3 @@
       display: block;
     }
     
-            </style>
