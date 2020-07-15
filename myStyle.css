@@ -1,0 +1,153 @@
+/* myStyle.css*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.avatar {
+float: left;
+margin-top:50px;
+margin-left:8%;
+border: 12px solid #FFFFFF;
+width:200px;
+height:200px;
+border-radius:50%;
+opacity: 1;
+-webkit-border-radius: 500px;
+-moz-border-radius: 500px;
+}
+
+.avatar-border {
+margin-top:50px;
+margin-left:8%;
+opacity: 1;
+}   
+        
+.menu {
+background-color: #EDFFF3;
+margin-left:33%;
+margin-top:70px;
+margin-bottom: 30px;
+height: 50px;
+width: 50%;
+border-radius: 20px; 
+}
+
+.description {
+margin-left:33%;
+width: 50%;
+font-size: 14px;
+text-align: justify;
+padding: 20px;
+background-color: #FFFFFF;
+border-radius: 20px;
+margin-top: 10px;
+margin-bottom: 40px;
+}
+
+.button {
+font-size: 14px;
+background-color: #40785E;
+color: #FFFFFF;
+border-radius: 20px;
+width: min-content;
+height: min-content; 
+text-align: center;
+float:left;
+margin-right: 20px;
+padding-right: 10px;
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+vertical-align: middle; 
+}
+
+.button:hover, .button:focus {
+background-color:#FFFFFF;
+color: #40785E;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-tabs{
+font-size: 14px;
+color: #FFFFFF;
+background-color: #87C5A8;
+min-width: 100px;
+z-index: 1;
+border-radius: 10px;
+line-height:30px;
+margin-top: 35px;
+margin-left: 0px;
+display: none;
+position:absolute;
+}
+
+.dropdown-tabs a {
+text-align: center;
+color: #FFFFFF;
+text-decoration: none;
+display:block;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px
+}
+
+.dropdown-tabs a:hover {
+background-color:#FFFFFF;
+border-radius:10px;
+color: #40785E;
+}
+
+.dropdown:hover .dropdown-tabs {
+display: block;
+}
+
+.dropdown:hover .button {
+background-color: #FFFFFF;
+color: #40785E
+}
+        
+.show {display: block}
+        
+.works{
+font-size: 14px;
+width: 50%;
+margin-left: 33%;
+display: block;
+text-align: center;
+}
+
+.works-frame-small {
+width: 50%;
+margin: 0% 25%;
+padding: 10px;
+margin-bottom: 30px;
+border: 10px solid #ffffff;
+border-radius: 25px;
+background-color: #ffffff;
+}
+
+.works-frame{
+width: 100%;
+padding: 10px;
+          
+margin-bottom: 30px;
+border: 10px solid #fff;
+border-radius: 25px;
+background-color: white;
+}
+        
+
+.works-art{
+width: 100%;
+}
+
+.works-art img{
+width: 100%;
+display: block;
+}
