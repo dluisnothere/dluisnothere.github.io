@@ -1,8 +1,9 @@
+    
     @font-face{
         font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        src: "https://fonts.googleapis.com/css?family=Montserrat";
+        font-style: bold;
+        font-weight: 500;
+        src: "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap";
     }
     .avatar {
         float: left;
@@ -24,7 +25,7 @@
     }   
                 
     .menu {
-        background-color: #EDFFF3;
+        background-color: #FFFEF9;
         margin-left:33%;
         margin-top:70px;
         margin-bottom: 30px;
@@ -38,6 +39,7 @@
         width: 50%;
         font-size: 14px;
         text-align: justify;
+        line-height: 0px;
         padding: 20px;
         background-color: #FFFFFF;
         border-radius: 20px;

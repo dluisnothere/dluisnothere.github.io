@@ -7,7 +7,7 @@
         <meta charset="UTF-8">
         <meta name="description" content="Di Lu's portfolio site">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel='stylesheet'>
         <a href="Resume.pdf"></a>
         <title>Di Lu</title>
         <link rel = "stylesheet"
@@ -15,38 +15,69 @@
             href = "myStyle.css" />
     </head>    
     
-    <body style ="background-color:#EDFFF3">
-          <img src="ripped-off.png" 
+    <body>
+        <div class="header">
+            <img src="selfportrait.jpg" 
             alt="Avatar" class="avatar">
+            <div class="title">
+
+            </div>
+            <div class="title">
+                Di Lu
+            </div>
             <div class="menu">
-                <a href="index.html">
-                    <div class="button">
-                        Home
-                    </div>
-                </a>
-                <a href="Resume.pdf" target="_blank">
-                    <div class="button">
-                        Resume
-                    </div>
-                </a>
-                <div class="dropdown">
-                    <a href="art.html">
-                    	<div class="button">Art</div>
+                <div class="button-container">
+                    <a href="index.html">
+                        <div class="button">
+                            Home
+                        </div>
                     </a>
-                    <div class="dropdown-tabs">
-                        <a href="pixelart.html">Pixel Art</a>
-                        <a href="traditionalart.html">Traditional</a>  
-                        <a href="3dmodeling.html">3D Modeling</a>
-                        <a href="graphicsdesign.html">Graphics/Design</a>
-                    </div>
+                </div>
+                <div class="button-container">
+                    <a href="Resume.pdf" target="_blank">
+                        <div class="button">
+                            Resume
+                        </div>
+                    </a>
+                </div>
+                <div class="button-container">
+                    <a href="vimeo.com/">
+                        <div class="button">Demo Reel</div>
+                    </a>
+                </div>
+                <div class="button-container">
+                    <a href="About.html">
+                        <div class="button">About</div>
+                    </a>
                 </div>
             </div>
-            <div class="description">
-                <h1 style="color:#40785E">Hello World!</h1>
-                <p>My name is <b style="color:#40785E">Di Lu</b>. </p>
-                <p> I am a student 
-                    at the University of Pennsylvania studying Digital Media Design (computer graphics).
-                </p>
+        </div>
+        <div class="content-row">
+            <div class="works-frame-gallery">
+                <img class="works-art" src="art/catherine-room.png">
+                <p style="font-size:0.83em">Pixel Art</p>
             </div>
+            <div class="works-frame-gallery">
+                <img class="works-art" src="art/miniminecraft.png">
+                <p style="font-size:0.83em">Code</p>
+            </div>
+            <div class="works-frame-gallery">
+                <img class="works-art" src="art/RenderF1.jpg">
+                <p style="font-size:0.83em">3D Modeling</p>
+            </div>
+        </div>
+        <div class="content-row">
+            <div class="works-frame-gallery">
+                <img class="works-art" src="art/catherine-room.png">
+                <p style="font-size:0.83em">Traditional Art</p>
+            </div>
+            <div class="works-frame-gallery">
+                <img class="works-art" src="art/olinda1.png">
+                <p style="font-size:0.83em">Graphic Design?</p>
+            </div>
+        </div>
+        <div class = "footer">
+            <p>Made with &#128405; in Philadephia and Hamden</p>
+        </div>
     </body>
 </html>
