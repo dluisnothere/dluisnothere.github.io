@@ -59,7 +59,10 @@
     </div>
     <div class="content-row">
       <div class="works-frame-gallery">
-        <img class="works-art" src="art/catherine-room.png" />
+        <img
+          class="works-art"
+          src="https://images.vexels.com/media/users/3/132074/isolated/preview/0117cb0129593faa02646a8277ca80e3-security-lock-icon-by-vexels.png"
+        />
         <p style="font-size: 0.83em">Traditional Art</p>
       </div>
       <div class="works-frame-gallery">
@@ -68,9 +71,14 @@
       </div>
     </div>
     <div class="footer">
-      <p onmouseover="secretText()" onmouseout="normalText()">
+      <p onmouseover="secretText(this)" onmouseout="normalText(this)">
         Made with &#128420; in Philadephia and Hamden
       </p>
     </div>
   </body>
+  <script>
+    function secretText(x) {}
+
+    function normalText(x) {}
+  </script>
 </html>
