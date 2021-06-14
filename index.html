@@ -44,12 +44,12 @@
       </div>
     </div>
     <div class="content-row">
-      <a href="pixelart.html">
+      <!--<a href="pixelart.html">-->
         <div class="works-frame-gallery">
           <img class="works-art" src="art/catherine-room.png" />
           <p style="font-size: 0.83em">Pixel Art</p>
         </div>
-      </a>
+      <!--</a>-->
       <div class="works-frame-gallery">
         <img class="works-art" src="art/miniminecraft.PNG" />
         <p style="font-size: 0.83em">Code</p>
@@ -73,13 +73,15 @@
       </div>
     </div>
     <div class="footer">
-      <p onmouseover="secretText(this)" onmouseout="normalText(this)">
+      <p id="footertext" onmouseover="secretText(this)" onmouseout="normalText(this)">
         Made with &#128420; in Philadephia and Hamden
       </p>
     </div>
   </body>
   <script>
-    function secretText(x) {}
+    function secretText(x) {
+      document.getElementById("footertext").innerHTML = "Made with love in Philadelphia and Hamden";
+    }
 
     function normalText(x) {}
   </script>
