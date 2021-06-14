@@ -136,7 +136,7 @@ body {
 }
 
 .works-frame-gallery {
-  width: 350px;
+  width: 35%;
   border-radius: 10px;
   background-color: #ffffff;
   border: 10px solid #ffffff;
@@ -166,11 +166,16 @@ body {
 
 .works-art {
   width: 100%;
+  transition: .5s ease;
 }
 
 .works-art img {
   width: 100%;
   display: block;
+}
+
+.works-art:hover {
+  opacity:0.3;
 }
 
 .footer {
