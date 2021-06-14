@@ -1,87 +1,83 @@
 <!DOCTYPE html>
-<html lang = "eng">
-<html>
-    <head>
+<html lang="eng">
+  <head>
     <!---Doc names, image associated with file, images that will be used in file
-        settings, metadata stuff-->
-        <meta charset="UTF-8">
-        <meta name="description" content="Di Lu's portfolio site">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-        <a href="Resume.pdf"></a>
-        <title>Di Lu</title>
-        <link rel = "stylesheet"
-            type = "text/css"
-            href = "myStyle.css" />
-    </head>
-    
-    <body style ="background-color:#EDFFF3">
-          <img src="ripped-off.png" 
-            alt="Avatar" class="avatar">
-            <div class="menu">
-                <a href="index.html">
-                    <div class="button">
-                        Home
-                    </div>
-                </a>
-                <a href="Resume.pdf" target="_blank">
-                    <div class="button">
-                        Resume
-                    </div>
-                </a>
-                <div class="dropdown">
-                    <a href="art.html">
-                    	<div class="button">Art</div>
-                    </a>
-                    <div class="dropdown-tabs">
-                        <a href="pixelart.html">Pixel Art</a>
-                        <a href="index.html">Traditional</a>  
-                        <a href="3dmodeling.html">3D Modeling</a>
-                        <a href="graphicsdesign.html">Graphics/Design</a>
-                    </div>
-                </div>
-            </div>
-            <div class="description">
-                <h1 style="color:#40785E">Pixel Art</h1>
-            </div>
-            <div class="works">
-				<span>
-                    <div class="works-frame">
-                        <img class="works-art" src="art/catherine-room.png">
-                        <p>Catherine's Room</p>
-                        <p>Photoshop, 2020</p>
-                    </div>
-                	<div class="works-frame-small">
-                    	<img class="works-art" src="art/WindowDaytime.png">
-                        <p>View from New College House (Daytime)</p>
-                        <p>Gimpshop, 2018</p>
-                    </div>
-                    <div class="works-frame">
-                    	<img class="works-art" src="art/NCH-roomBIG.png">
-                        <p>Isometric Dormitory</p>
-                        <p>Gimpshop, 2019</p>
-                    </div>
-                    <div class="works-frame">
-                    	<img class="works-art" src="art/smallcampus.png">
-                        <p>Small Campus</p>
-                        <p>Photoshop, 2019</p>
-                    </div>
-                    <div class="works-frame-small">
-                    	<img class="works-art" src="art/WindowNighttime.png">
-                        <p>View from New College House (Nighttime)</p>
-                        <p>Gimpshop, 2018</p>
-                    </div>
-                    <div class="works-frame">
-                    	<img class="works-art" src="art/fratRow.png">
-                        <p>Greek Houses</p>
-                        <p>Photoshop, 2019</p>
-                    </div>
-                    <div class="works-frame-small">
-                    	<img class="works-art" src="art/arched-windows2.png">
-                        <p>A neat window</p>
-                        <p>Gimpshop, 2019</p>
-                    </div>
-                </span>
-            </div>
-    </body>
+            settings, metadata stuff-->
+    <meta charset="UTF-8" />
+    <meta name="description" content="Di Lu's portfolio site" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <a href="Resume.pdf"></a>
+    <title>Di Lu</title>
+    <link rel="stylesheet" type="text/css" href="myStyle.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="selfportrait.jpg" alt="Avatar" class="avatar" />
+      <div class="title"></div>
+      <div class="title">Di Lu</div>
+      <div class="menu">
+        <div class="button-container">
+          <a href="index.html">
+            <div class="button">Home</div>
+          </a>
+        </div>
+        <div class="button-container">
+          <a href="Resume.pdf">
+            <div class="button">Resume</div>
+          </a>
+        </div>
+        <div class="button-container">
+          <a href="https://www.vimeo.com/">
+            <div class="button">Demo Reel</div>
+          </a>
+        </div>
+        <div class="button-container">
+          <a href="About.html">
+            <div class="button">About</div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="title">Pixel Art</div>
+    <div class="content-row">
+      <!--<a href="pixelart.html">-->
+        <div class="works-frame-gallery">
+          <img class="works-art" src="art/catherine-room.png" />
+          <p style="font-size: 0.83em">Pixel Art</p>
+        </div>
+      <!--</a>-->
+      <div class="works-frame-gallery">
+        <img class="works-art" src="art/miniminecraft.PNG" />
+        <p style="font-size: 0.83em">Code</p>
+      </div>
+    </div>
+    <div class="content-row">
+      <div class="works-frame-gallery">
+        <img
+          class="works-art"
+          src="art/pilot.jpg"
+        />
+        <p style="font-size: 0.83em">Traditional Art</p>
+      </div>
+    </div>
+    <div class="footer">
+      <p id="footertext" onmouseover="secretText(this)" onmouseout="normalText(this)">
+        Made with &#128420; in Philadephia and Hamden
+      </p>
+    </div>
+  </body>
+  <script>
+    function secretText(x) {
+      x.innerHTML = "Made with &#9203; in Philadephia and Hamden";
+    }
+
+    function normalText(x) {
+      x.innerHTML = "Made with &#128420; in Philadephia and Hamden";
+    }
+  </script>
 </html>
